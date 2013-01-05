@@ -1,0 +1,43 @@
+//base class
+.nav {
+	position: absolute;
+	background-color: @usubeni;
+	width: 100%;
+	height: @navHeight;
+	margin-bottom: @blankLine;
+	z-index: 2;
+
+	.nav-inner {
+		text-align: center;
+		margin: 0 auto;
+		width: 960px;
+	}
+
+	.nav-item {
+		text-align: center;
+		float: right;
+		margin: 0 auto;
+		margin-right: 20px;
+		line-height: @navHeight;
+  		color: @sakura;
+	}
+
+	.nav-title {
+		float: left;
+		text-align: center;
+		line-height: @navHeight;
+		color: @kokiake;
+		.titleEn(24px);
+		margin: 0 auto;
+	}
+}
+	.nav-bottom-line {
+		position: absolute;
+		margin-top: @navHeight;
+		width: 100%;
+		background-color: @keshizumi;
+		height: @blankLine;
+		z-index: 1;
+	}
+
+
